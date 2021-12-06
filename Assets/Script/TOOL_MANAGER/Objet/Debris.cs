@@ -13,5 +13,4 @@ public class Debris : InteractableObject
     {
         print("Je suis du bois mouillé");
     }
-
 }

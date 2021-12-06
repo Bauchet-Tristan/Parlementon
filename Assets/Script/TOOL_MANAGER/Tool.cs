@@ -6,6 +6,7 @@ public class Tool : MonoBehaviour
 {
     public virtual void UseTool()
     {
+        
     }
 
     public virtual void UseToolWithGameObject(InteractableObject go)
