@@ -37,5 +37,4 @@ public class Interact : MonoBehaviour
             tool.UseToolWithGameObject(go);
         }
     }
-    
 }
