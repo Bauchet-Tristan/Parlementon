@@ -26,8 +26,12 @@ public class Interact : MonoBehaviour
 
     public void ChangeTool(Tool newTool)
     {
+        if(tool != null)
+        {
+            tool.gameObject.SetActive(false);
+        }
         tool = newTool;
-        didier.SetActive(true);
+        newTool.gameObject.SetActive(true);
     }
 
     public void RevealTool(GameObject newdidier)
