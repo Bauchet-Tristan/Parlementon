@@ -1010,6 +1010,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1062179879}
+        m_TargetAssemblyTypeName: Interact, Assembly-CSharp
+        m_MethodName: RevealTool
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1909079902}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &738578387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1674,7 +1686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3017260938060135512, guid: 328d37b5818729840b663dd68d0ac352, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6847856188257093500, guid: 328d37b5818729840b663dd68d0ac352, type: 3}
       propertyPath: m_RootOrder
@@ -2149,6 +2161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tool: {fileID: 0}
+  didier: {fileID: 1909079902}
 --- !u!114 &1062179880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2989,7 +3002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8837317529808944762, guid: 84f6628bb13fc0442ae0a3815c03a3dd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5297533907040070677, guid: 84f6628bb13fc0442ae0a3815c03a3dd, type: 3}
@@ -3283,6 +3296,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 498359816}
           m_ObjectArgumentAssemblyTypeName: Tool, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1062179879}
+        m_TargetAssemblyTypeName: Interact, Assembly-CSharp
+        m_MethodName: RevealTool
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 498359814}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -5,6 +5,9 @@ using UnityEngine;
 public class Interact : MonoBehaviour
 {
     public Tool tool;
+    public GameObject didier;
+
+        
     // Update is called once per frame
     void Update()
     {
@@ -24,6 +27,14 @@ public class Interact : MonoBehaviour
     public void ChangeTool(Tool newTool)
     {
         tool = newTool;
+        didier.SetActive(true);
+    }
+
+    public void RevealTool(GameObject newdidier)
+    {
+        didier.SetActive(false);
+        didier = newdidier;
+        didier.SetActive(true);
     }
 
     public void InteractWithObject(InteractableObject go)
