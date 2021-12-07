@@ -5,8 +5,7 @@ using UnityEngine;
 public class Interact : MonoBehaviour
 {
     public Tool tool;
-
-        
+    
     // Update is called once per frame
     void Update()
     {
