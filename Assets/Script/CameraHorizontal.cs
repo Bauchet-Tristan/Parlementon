@@ -4,7 +4,7 @@ using UnityEngine;
 public class CameraHorizontal : MonoBehaviour
 {
 
-    public float _cameraSpeed = 1;
+    private float _cameraSpeed = -1;
 
     private void Start()
     {  

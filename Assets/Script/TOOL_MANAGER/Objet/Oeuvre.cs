@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Flamme : InteractableObject
+public class Oeuvre : InteractableObject
 {
     public override void InteractWithAxe()
     {
-        print("La hache ne m'eteins pas...");
+        print("Bah toujours plus ! Découpe tous le parlement tant que t-y est ");
     }
 
     public override void InteractWithLance()
     {
-        Destroy(gameObject);
+        print("Super le mec mouille les tapisseries");
     }
 
     public override void InteractWithHand()
     {
-        print("Ta la main en feu...");
+        Destroy(gameObject);
     }
 }

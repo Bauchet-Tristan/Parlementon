@@ -13,4 +13,9 @@ public class Debris : InteractableObject
     {
         print("Je suis du bois mouillé");
     }
+
+    public override void InteractWithHand()
+    {
+        print("GL HF pour bouger le debris avec les mains !");
+    }
 }
