@@ -8,17 +8,38 @@ public class OnClick : MonoBehaviour
 
     public void OnMouseDown()
     {
-        _onClick.Invoke();
+        if(Time.timeScale == 0 )
+        {
+
+        }
+        else
+        {
+            _onClick.Invoke();
+        }
     }
 
     public void OnMouseEnter()
     {
-        _onEnterOver.Invoke();
+        if(Time.timeScale == 0 )
+        {
+
+        }
+        else
+        {
+            _onEnterOver.Invoke();
+        }
     }
 
     private void OnMouseExit()
     {
-        _onExitOver.Invoke();
+        if(Time.timeScale == 0 )
+        {
+
+        }
+        else
+        {
+            _onExitOver.Invoke();
+        }
     }
 
 }

@@ -8,7 +8,7 @@ public class Oeuvre : InteractableObject
 
     public override void InteractWithAxe()
     {
-        print("Bah toujours plus ! Découpe tous le parlement tant que t-y est ");
+        print("Bah toujours plus ! Decoupe tous le parlement tant que t-y est ");
     }
 
     public override void InteractWithLance()

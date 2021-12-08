@@ -8,16 +8,10 @@ public class OeuvreManager : MonoBehaviour
     public Text affichageCompteur;
     private int oeuvreCompteur = 0;
 
-    public void start()
+    public void AddOeuvre(Oeuvre oeuvre)
     {
         oeuvreCompteur = +1;
-        affichageCompteur.text = "didier2";
-    }
-
-    public void update()
-    {
-        oeuvreCompteur = +1;
-        affichageCompteur.text = "didier2";
+        affichageCompteur.text = "Oeuvres sauvez : " + oeuvreCompteur.ToString("00");
     }
 
 }

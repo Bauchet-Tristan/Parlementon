@@ -13,13 +13,13 @@ public class MainMenu : MonoBehaviour
     public void Resume ()
     {
         GameIsPaused = false;
-        Time.timeScale = 1f;
+        Time.timeScale = 1;
     }
 
     public void Pause ()
     {
         GameIsPaused = true;
-        Time.timeScale = 0f;
+        Time.timeScale = 0;
     }
 
     public void PlayGame ()
