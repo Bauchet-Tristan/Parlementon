@@ -5,7 +5,9 @@ using UnityEngine;
 public class Interact : MonoBehaviour
 {
     public Tool tool;
-    
+    public GameObject player;
+    public float Distance_Between;
+
     // Update is called once per frame
     void Update()
     {
@@ -41,7 +43,16 @@ public class Interact : MonoBehaviour
         }
         else
         {
-            tool.UseToolWithGameObject(go);
+            Distance_Between = Vector3.Distance(go.transform.position, player.transform.position);
+            if(Distance_Between <= 15)
+            {
+                tool.UseToolWithGameObject(go);
+            }
+            else
+            {
+                print("Tes un peu loin de l'objet la non ?! ATTOOLLL LES OPTICIEN !!!!");
+            }
+            
         }
     }
 }
