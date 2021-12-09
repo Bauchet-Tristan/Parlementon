@@ -2398,7 +2398,7 @@ Transform:
   - {fileID: 606260576}
   - {fileID: 1319722811}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &556404050
 GameObject:
@@ -5024,7 +5024,7 @@ Transform:
   - {fileID: 1120682454}
   - {fileID: 1256275781}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -5626,8 +5626,9 @@ Transform:
   - {fileID: 696441801}
   - {fileID: 1062397765}
   - {fileID: 556404051}
+  - {fileID: 1263270811}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1151561242
 PrefabInstance:
@@ -6125,6 +6126,11 @@ Transform:
   m_Father: {fileID: 961972507}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1263270811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0a2cf2e4f3c984046b546cfba7ee8f73, type: 3}
+  m_PrefabInstance: {fileID: 1698438807}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1268701134
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,19 +8214,19 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1128312502}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0a2cf2e4f3c984046b546cfba7ee8f73, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a2cf2e4f3c984046b546cfba7ee8f73, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.8231
+      value: 5.8231006
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a2cf2e4f3c984046b546cfba7ee8f73, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.4230852
+      value: 2.4230855
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a2cf2e4f3c984046b546cfba7ee8f73, type: 3}
       propertyPath: m_LocalScale.z

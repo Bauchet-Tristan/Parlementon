@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6274190971295745864}
   - component: {fileID: 4029075178852137721}
   - component: {fileID: 8988871935174662718}
-  - component: {fileID: 371712813590995067}
   - component: {fileID: 3432589951487962175}
   - component: {fileID: 1142881950917030444}
+  - component: {fileID: 371712813590995067}
   - component: {fileID: 8582508055175383378}
   m_Layer: 0
   m_Name: Debris 1
@@ -88,19 +88,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &371712813590995067
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7594193293614994607}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.4018173, y: 1.1641344, z: 1}
-  m_Center: {x: 0.018002689, y: 0.22191244, z: 0}
 --- !u!114 &3432589951487962175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +133,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da74745fef80afe489c1d35c8df10d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &371712813590995067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7594193293614994607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4018173, y: 1.1641344, z: 2.1853905}
+  m_Center: {x: 0.018002748, y: 0.22191244, z: -0.029811084}
 --- !u!65 &8582508055175383378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -157,8 +157,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4467766, y: 0.9144615, z: 1}
-  m_Center: {x: -0.22338855, y: 1.2679968, z: 0}
+  m_Size: {x: 1.4219812, y: 0.9144616, z: 1}
+  m_Center: {x: -0.23578627, y: 1.2679968, z: 0}
 --- !u!1001 &6918584277337729976
 PrefabInstance:
   m_ObjectHideFlags: 0
