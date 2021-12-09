@@ -44,6 +44,7 @@ public class Interact : MonoBehaviour
         else
         {
             Distance_Between = Vector3.Distance(go.transform.position, player.transform.position);
+
             if(Distance_Between <= 15)
             {
                 tool.UseToolWithGameObject(go);
@@ -52,7 +53,6 @@ public class Interact : MonoBehaviour
             {
                 print("Tes un peu loin de l'objet la non ?! ATTOOLLL LES OPTICIEN !!!!");
             }
-            
         }
     }
 }

@@ -6,12 +6,19 @@ using UnityEngine.UI;
 public class OeuvreManager : MonoBehaviour
 {
     public Text affichageCompteur;
+    public Text textVictoire;
     private int oeuvreCompteur = 0;
 
-    public void AddOeuvre(Oeuvre oeuvre)
+
+    public void AddOeuvre()
     {
-        oeuvreCompteur = +1;
+        oeuvreCompteur = oeuvreCompteur + 1;
         affichageCompteur.text = "Oeuvres sauvez : " + oeuvreCompteur.ToString("00");
+
+        if(oeuvreCompteur >= 3)
+        {
+            textVictoire.text = "C'est gagnée vous avez sauvé toutes les oeuvres / Fin de l'Alpha";
+        }
     }
 
 }

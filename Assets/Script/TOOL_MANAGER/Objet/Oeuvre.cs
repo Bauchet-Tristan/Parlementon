@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Oeuvre : InteractableObject
 {
+    public OeuvreManager _oeuvreManager;
 
     public override void InteractWithAxe()
     {
@@ -18,6 +19,7 @@ public class Oeuvre : InteractableObject
 
     public override void InteractWithHand()
     {
+        _oeuvreManager.AddOeuvre();
         Destroy(gameObject);
     }
 }
