@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
 
     public static bool GameIsPaused = false;
+    
 
     //public GameObject pauseMenuUI;
 
@@ -22,20 +23,28 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    public void PlayGame ()
+    public void SceneChanging()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void BackMainMenu()
+    public void BackMainMenu(string sceneToGo)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(sceneToGo);
     }
 
     public void QuitGame ()
     {
         Debug.Log("QUIT");
         Application.Quit();
-    }    
+    }
+
+    public void OnTriggerEnter(Collider collision){
+        print(collision);
+        if(collision.tag == "Player")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
 
 }

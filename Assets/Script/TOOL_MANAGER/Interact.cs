@@ -15,7 +15,7 @@ public class Interact : MonoBehaviour
         {
             if(tool==null)
             {
-                print("yapadtool");
+                //print("yapadtool");
             }
             else
             {
@@ -39,7 +39,7 @@ public class Interact : MonoBehaviour
     {
         if(tool==null)
         {
-            print("yapadtool");
+            //print("yapadtool");
         }
         else
         {
