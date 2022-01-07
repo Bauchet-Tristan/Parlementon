@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 113878e96202b9c46924d8421191f1ea
+guid: bac5d52a8b1ddd84e91bf1a68b24a5e6
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material #47
-    second: {fileID: 2100000, guid: c95c96ddce456b0409948f02ea8e4915, type: 2}
+      name: Diffuse
+    second: {fileID: 2100000, guid: 0f1cd297d12bb014ea62f5530545f443, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -70,7 +70,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 50
+    normalSmoothAngle: 2
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4

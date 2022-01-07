@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Diffuse
-  m_Shader: {fileID: -6465566751694194690, guid: b017cfb92c76e8f46bbf595209128698, type: 3}
+  m_Name: Diffuse Emisive
+  m_Shader: {fileID: -6465566751694194690, guid: 5361bd7bb30665943982c7f090536762, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_12d1a9bc35e34e269d7c639966427d84:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f6b40666ebd23e24082367160f708d4e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_deb2c864d18e43e3a4653cecad7285d4:
@@ -129,7 +129,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_82ae241a922f412ea089b07c761dcca4: {r: 0.4433962, g: 0.13594696, b: 0.13594696, a: 0}
+    - Color_82ae241a922f412ea089b07c761dcca4: {r: 9.471499, g: 0.44630104, b: 0, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
