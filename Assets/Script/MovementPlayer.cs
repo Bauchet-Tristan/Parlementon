@@ -5,7 +5,8 @@ using UnityEngine;
 public class MovementPlayer : MonoBehaviour
 {
 
-    public LayerMask mask;
+    public LayerMask valideTarget;
+    public LayerMask blockRaycast;
     public GameObject token; 
 
 
@@ -13,7 +14,7 @@ public class MovementPlayer : MonoBehaviour
     {
 
         //Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * 50);
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out var hit1, 50, mask))
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out var hit1, 50, valideTarget))
         {
             token.transform.position = hit1.point;
             //new Vector3(hit1.point.x, didier.transform.position.y, hit1.point.z);
@@ -22,9 +23,15 @@ public class MovementPlayer : MonoBehaviour
 
     public void Deplacement()
     {
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out var hit, 50, mask))
+        if (!Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, 50, blockRaycast))
         {
-            transform.position = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+            print("didier");
+
+            if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out var hit, 50, valideTarget))
+            {
+
+                transform.position = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+            }
         }
     }
 
