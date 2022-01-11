@@ -1593,8 +1593,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!23 &624074158
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1636,7 +1634,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> 55b48817e3c19bc4eeabc066513278923f3a41aa
 --- !u!33 &624074159
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2184,9 +2181,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738578384}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 --- !u!1 &752704788 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bac5d52a8b1ddd84e91bf1a68b24a5e6, type: 3}
@@ -2362,9 +2356,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769369679}
   m_CullTransparentMesh: 1
-=======
->>>>>>> 55b48817e3c19bc4eeabc066513278923f3a41aa
->>>>>>> Stashed changes
 --- !u!1001 &795543068
 PrefabInstance:
   m_ObjectHideFlags: 0
