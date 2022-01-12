@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 {
 
     public static bool GameIsPaused = false;
+    public OeuvreManager refToOeuvreManage;
+
     
 
     //public GameObject pauseMenuUI;
@@ -39,11 +41,23 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void OnTriggerEnter(Collider collision){
-        print(collision);
+    public void OnTriggerEnter(Collider collision)
+    {   
+        //print(collision);
+
         if(collision.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            print("le deuxieme open = " + refToOeuvreManage.open);
+
+            if (refToOeuvreManage.open == true)
+            {
+                print("Bon");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else 
+            {
+                print("pas bon");
+            }
         }
     }
 

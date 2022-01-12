@@ -7,7 +7,8 @@ public class OeuvreManager : MonoBehaviour
 {
     public Text affichageCompteur;
     public Text textVictoire;
-    private int oeuvreCompteur = 0;
+    public int oeuvreCompteur = 0;
+    public bool open = false;
 
 
     public void AddOeuvre()
@@ -17,7 +18,8 @@ public class OeuvreManager : MonoBehaviour
 
         if(oeuvreCompteur >= 3)
         {
-            textVictoire.text = "C'est gagné vous avez sauvé toutes les oeuvres / Fin de l'Alpha";
+            textVictoire.text = "Dirigé vous vers la prochaine salle";
+            open = true;
         }
     }
 
