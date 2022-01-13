@@ -1751,7 +1751,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -344}
-  m_SizeDelta: {x: 714.2993, y: 216.6308}
+  m_SizeDelta: {x: 865.647, y: 216.6308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &655052975
 MonoBehaviour:
@@ -4796,7 +4796,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
-  m_Intensity: 0.6
+  m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
