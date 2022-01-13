@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.13195512, g: 0.13446876, b: 0.13988757, a: 1}
+  m_IndirectSpecularColor: {r: 0.13196123, g: 0.13445267, b: 0.1398614, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -425,6 +425,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 611f86dc92064894da1e26e936bb699f, type: 3}
       propertyPath: m_Name
       value: Salle_2_Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 611f86dc92064894da1e26e936bb699f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 611f86dc92064894da1e26e936bb699f, type: 3}
@@ -1638,6 +1642,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6274190971295745864, guid: e09ae0246f631ec448dbb2021f61a65d, type: 3}
   m_PrefabInstance: {fileID: 524802315}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &544571180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c578beb007b5a1d46ae825c84c559d5a, type: 3}
+  m_PrefabInstance: {fileID: 1238203050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &544571183
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544571180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 44, y: 0.04876602, z: 20}
+  m_Center: {x: 0, y: 0.02438301, z: 0}
 --- !u!1 &578537183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3620,6 +3642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salle_2_Sol
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c578beb007b5a1d46ae825c84c559d5a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c578beb007b5a1d46ae825c84c559d5a, type: 3}
 --- !u!4 &1238203051 stripped
@@ -4618,6 +4644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salle_2_Roof
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ab9079d2c99384f46a1d0e456a74c879, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab9079d2c99384f46a1d0e456a74c879, type: 3}
 --- !u!4 &1742875762 stripped
@@ -5444,6 +5474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 531345ea58620c842ac1876505173ec1, type: 3}
       propertyPath: m_Name
       value: Salle_2_Mur
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 531345ea58620c842ac1876505173ec1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 531345ea58620c842ac1876505173ec1, type: 3}
