@@ -9,6 +9,7 @@ public class OeuvreManager : MonoBehaviour
     public Text textVictoire;
     public int oeuvreCompteur = 0;
     public bool open = false;
+    public string Actualscene;
 
 
     public void AddOeuvre()
@@ -18,7 +19,15 @@ public class OeuvreManager : MonoBehaviour
 
         if(oeuvreCompteur >= 3)
         {
-            textVictoire.text = "Dirigé vous vers la prochaine salle";
+            if (Actualscene == "1")
+            {
+                textVictoire.text = "Dirigez vous vers la prochaine salle";
+                open = true;
+            }
+        }
+        if (oeuvreCompteur >= 4)
+        {
+            textVictoire.text = "Fin de l'alpha Vous avez sauvé toutes les oeuvres";
             open = true;
         }
     }

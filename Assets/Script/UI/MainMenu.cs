@@ -47,16 +47,16 @@ public class MainMenu : MonoBehaviour
 
         if(collision.tag == "Player")
         {
-            print("le deuxieme open = " + refToOeuvreManage.open);
+            //print("le deuxieme open = " + refToOeuvreManage.open);
 
             if (refToOeuvreManage.open == true)
             {
-                print("Bon");
+                //print("Bon");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else 
             {
-                print("pas bon");
+                //print("pas bon");
             }
         }
     }

@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4324a7ae3a83c4aa7236ac7df7ccde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  refToOeuvreManage: {fileID: 0}
 --- !u!1 &76616752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,8 +1583,8 @@ MonoBehaviour:
   m_Text: "Le but de cette Alpha est de r\xE9cup\xE9rer 3 oeuvres parmis les d\xE9bris
     et les flammes.\nPlusieurs outils sont \xE0 votre disposition :\n\n-La lance
     permet d'\xE9teindre les flammes.\n-La hache permet de d\xE9truire les petits
-    d\xE9bris.\n-La cam\xE9ra permet de changer de point de vue dans le niveau.\n-La
-    main permet la recuperation des oeuvre repr\xE9sent\xE9es par des Tableaux. \n\nAttention
+    d\xE9bris.\n-Les empreintes de pas permettent de vous d\xE9placer. \n-La main
+    permet la r\xE9cup\xE9ration des \u0153uvres repr\xE9sent\xE9es par des tableaux.\n\nAttention
     si vous \xEAtes trop loin d'un objet vous ne pourrez pas interagir avec."
 --- !u!222 &1155619522
 CanvasRenderer:
