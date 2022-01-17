@@ -20,6 +20,8 @@ public class MovementPlayer : MonoBehaviour
             //token.transform.Rotate(Vector3.up * - transform.rotation.z);    
             //new Vector3(transform.rotation.x, transform.rotation.y, transform.rotation.z);
             //hit1.point;
+            var tempPos = new Vector3(transform.position.x, token.transform.position.y, transform.position.z);
+            token.transform.LookAt(tempPos);
         }
     }
 
