@@ -11,6 +11,8 @@ public class OeuvreManager : MonoBehaviour
     public bool open = false;
     public string Actualscene;
 
+    public GameObject lIGHT;
+
 
     public void AddOeuvre()
     {
@@ -23,6 +25,7 @@ public class OeuvreManager : MonoBehaviour
             {
                 textVictoire.text = "Dirigez vous vers la prochaine salle";
                 open = true;
+                lIGHT.gameObject.SetActive(true);
             }
         }
         if (oeuvreCompteur >= 4)
