@@ -30,7 +30,7 @@ public class OeuvreManager : MonoBehaviour
         }
         if (oeuvreCompteur >= 4)
         {
-            textVictoire.text = "Fin de l'alpha Vous avez sauvé toutes les oeuvres";
+            textVictoire.text = "Fin de l'alpha vous avez sauvé toutes les oeuvres";
             open = true;
         }
     }
